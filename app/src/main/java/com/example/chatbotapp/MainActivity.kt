@@ -9,15 +9,13 @@ import android.widget.EditText
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.chatbotapp.data.Message
-import com.example.chatbotapp.ui.MessagingAdapter
+import com.example.chatbotapp.adapter.MessagingAdapter
 import com.example.chatbotapp.utils.BotResponse
 import com.example.chatbotapp.utils.Constants.OPEN_GOOGLE
 import com.example.chatbotapp.utils.Constants.OPEN_SEARCH
 import com.example.chatbotapp.utils.Constants.RECEIVE_ID
 import com.example.chatbotapp.utils.Constants.SEND_ID
-import com.example.chatbotapp.utils.Time.timeStamp
 import kotlinx.coroutines.*
-import java.sql.Time
 
 class MainActivity : AppCompatActivity() {
 
